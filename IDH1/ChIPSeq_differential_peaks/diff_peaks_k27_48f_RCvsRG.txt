@@ -1,0 +1,19 @@
+# HOMER Differential Peaks
+# Original Peak File = Turcan_K27_annotated_peaks_ip_32.txt
+# Peak File Tag Directory = RC_IP
+# Background Tag Directory = RG_IP
+#
+# Mode = Peaks enriched over background
+# Differential peaks = 0
+# Fraction of original peaks = 0.00%
+# Original number of peaks = 25578
+# Size of region used to count tags = given peak sizes (-fixed)
+# Fold change cutoff = 1.50
+# Poisson p-value cutoff = 1.00e-03
+# strand = 2 (tags counted on 0=+strand, 1=-strand, 2=both strands)
+# peak directory tagAdjust = 44
+# background directory tagAdjust = 39
+#
+# cmd = getDifferentialPeaks Turcan_K27_annotated_peaks_ip_32.txt RC_IP RG_IP -F 1.5 -P 0.001
+#
+#PeakID	chr	start	end	strand	score	focus ratio/other	Total Tags	Background Tags	Fold Change vs. Background	p-value

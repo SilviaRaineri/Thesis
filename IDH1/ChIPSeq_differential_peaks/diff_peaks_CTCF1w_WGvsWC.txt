@@ -1,0 +1,24 @@
+# HOMER Differential Peaks
+# Original Peak File = Turcan_CTCF_annotated_peaks_ip_32.txt
+# Peak File Tag Directory = WG_IP
+# Background Tag Directory = WC_IP
+#
+# Mode = Peaks enriched over background
+# Differential peaks = 5
+# Fraction of original peaks = 0.03%
+# Original number of peaks = 17843
+# Size of region used to count tags = given peak sizes (-fixed)
+# Fold change cutoff = 1.50
+# Poisson p-value cutoff = 1.00e-03
+# strand = 2 (tags counted on 0=+strand, 1=-strand, 2=both strands)
+# peak directory tagAdjust = 60
+# background directory tagAdjust = 44
+#
+# cmd = getDifferentialPeaks Turcan_CTCF_annotated_peaks_ip_32.txt WG_IP WC_IP -F 1.5 -P 0.001
+#
+#PeakID	chr	start	end	strand	score	focus ratio/other	Total Tags	Background Tags	Fold Change vs. Background	p-value
+287-22	chr16	34593257	34593542	+	0.000	0.000	48.3	25.5	1.89	4.52e-05
+495-14	chr16	46394496	46394989	+	0.000	0.000	155.2	82.5	1.88	7.32e-13
+328-40	chrM	1395	1721	+	0.000	0.000	153.7	71.5	2.15	4.20e-17
+194-77	chrM	2785	2977	+	0.000	0.000	171.9	97.0	1.77	7.48e-12
+163-76	chrM	6525	6686	+	0.000	0.000	130.3	57.5	2.27	1.67e-16

@@ -1,0 +1,29 @@
+# HOMER Differential Peaks
+# Original Peak File = Turcan_K27_annotated_peaks_ip_32.txt
+# Peak File Tag Directory = RG_IP
+# Background Tag Directory = RC_IP
+#
+# Mode = Peaks enriched over background
+# Differential peaks = 10
+# Fraction of original peaks = 0.04%
+# Original number of peaks = 25578
+# Size of region used to count tags = given peak sizes (-fixed)
+# Fold change cutoff = 1.50
+# Poisson p-value cutoff = 1.00e-03
+# strand = 2 (tags counted on 0=+strand, 1=-strand, 2=both strands)
+# peak directory tagAdjust = 39
+# background directory tagAdjust = 44
+#
+# cmd = getDifferentialPeaks Turcan_K27_annotated_peaks_ip_32.txt RG_IP RC_IP -F 1.5 -P 0.001
+#
+#PeakID	chr	start	end	strand	score	focus ratio/other	Total Tags	Background Tags	Fold Change vs. Background	p-value
+3988-3	chr7	95607011	95610997	+	0.000	0.000	674.5	417.5	1.62	6.46e-31
+2826-5	chr8	29124374	29127198	+	0.000	0.000	817.0	504.3	1.62	1.53e-37
+4801-5	chr8	54018323	54023122	+	0.000	0.000	1264.0	825.7	1.53	1.31e-45
+3628-5	chr10	112459002	112462628	+	0.000	0.000	897.0	569.6	1.57	6.93e-37
+2659-9	chr15	41475697	41478354	+	0.000	0.000	984.5	641.6	1.53	3.14e-36
+2174-10	chr16	70288247	70290419	+	0.000	0.000	1008.5	655.3	1.54	1.60e-37
+1835-14	chr16	87777767	87779600	+	0.000	0.000	423.5	236.6	1.79	7.14e-28
+2442-12	chr17	6926272	6928712	+	0.000	0.000	378.5	239.8	1.58	1.13e-16
+2593-13	chr17	48054729	48057320	+	0.000	0.000	454.5	282.0	1.61	3.22e-21
+2025-13	chrX	134603604	134605627	+	0.000	0.000	474.0	311.2	1.52	6.31e-18

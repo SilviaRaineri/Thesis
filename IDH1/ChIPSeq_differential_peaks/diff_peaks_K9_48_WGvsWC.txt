@@ -1,0 +1,37 @@
+# HOMER Differential Peaks
+# Original Peak File = Turcan_K9_48_annotated_peaks_ip_32.txt
+# Peak File Tag Directory = WG_IP
+# Background Tag Directory = WC_IP
+#
+# Mode = Peaks enriched over background
+# Differential peaks = 18
+# Fraction of original peaks = 0.10%
+# Original number of peaks = 17276
+# Size of region used to count tags = given peak sizes (-fixed)
+# Fold change cutoff = 1.50
+# Poisson p-value cutoff = 1.00e-03
+# strand = 2 (tags counted on 0=+strand, 1=-strand, 2=both strands)
+# peak directory tagAdjust = 39
+# background directory tagAdjust = 45
+#
+# cmd = getDifferentialPeaks Turcan_K9_48_annotated_peaks_ip_32.txt WG_IP WC_IP -F 1.5 -P 0.001
+#
+#PeakID	chr	start	end	strand	score	focus ratio/other	Total Tags	Background Tags	Fold Change vs. Background	p-value
+6723	chr2	17464168	17470889	+	0.000	0.000	204.1	135.5	1.51	2.56e-08
+6959	chr2	26077667	26084624	+	0.000	0.000	177.9	117.0	1.52	1.48e-07
+7506	chr4	80104906	80112410	+	0.000	0.000	220.1	140.5	1.57	3.51e-10
+4330-9	chr4	101565940	101570268	+	0.000	0.000	168.2	111.5	1.51	3.76e-07
+7711-4	chr4	156550074	156557783	+	0.000	0.000	175.3	109.5	1.60	5.10e-09
+10522-2	chr5	65338893	65349413	+	0.000	0.000	381.1	247.5	1.54	2.28e-15
+8199-5	chr5	104504743	104512940	+	0.000	0.000	266.9	174.0	1.53	5.80e-11
+5152-3	chr5	145623048	145628198	+	0.000	0.000	180.0	119.5	1.51	2.33e-07
+6264-5	chr6	95965019	95971281	+	0.000	0.000	216.6	134.5	1.61	6.39e-11
+6366-4	chr7	40429134	40435498	+	0.000	0.000	187.1	119.5	1.57	7.00e-09
+5488-4	chr7	143845512	143850998	+	0.000	0.000	224.7	146.0	1.54	1.28e-09
+7689-2	chr8	54884355	54892042	+	0.000	0.000	236.3	146.5	1.61	6.72e-12
+7501-2	chr8	105856862	105864361	+	0.000	0.000	185.8	122.5	1.52	8.87e-08
+6517-4	chr9	111749249	111755764	+	0.000	0.000	214.8	136.5	1.57	5.43e-10
+8987-2	chr12	10855694	10864679	+	0.000	0.000	256.9	169.5	1.52	3.83e-10
+9736-2	chr13	64146148	64155882	+	0.000	0.000	207.6	138.0	1.50	2.65e-08
+5294-3	chr18	33037170	33042462	+	0.000	0.000	186.8	121.0	1.54	2.56e-08
+10514-2	chr22	16363976	16374488	+	0.000	0.000	217.2	143.0	1.52	5.29e-09
